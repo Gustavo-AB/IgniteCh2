@@ -1,5 +1,5 @@
-import { Specification } from "../model/Specification";
-import { ISpecificationsRepository } from "./ISpecificationRepository";
+import { Specification } from "../../model/Specification";
+import { ISpecificationsRepository } from "../ISpecificationRepository";
 
 
 export class SpecificationRepository implements ISpecificationsRepository {

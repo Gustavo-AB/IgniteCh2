@@ -4,11 +4,12 @@ import { specificationsRoutes } from "./routes/Specifications.routes";
 
 
 const app = express()
+const port = 3333
 
 app.use(express.json())
 app.use("/categories", categoriesRoutes)
 app.use("/specifications", specificationsRoutes)
 
-app.listen(3333, () => {
+app.listen(port, () => {
     console.log("Server is running!")
 })
