@@ -1,6 +1,5 @@
 import { Router, Request, Response } from "express";
 import { SpecificationRepository } from "../modules/cars/repositories/implementations/SpecificationsRepository";
-import { CreateCategoryUseCase } from "../modules/cars/useCases/createCategoty/CreateCategoryUseCase";
 import { createSpecificationController } from "../modules/cars/useCases/createSpecifications";
 
 
